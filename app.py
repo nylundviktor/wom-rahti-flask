@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     ret = { 
-        'msg': 'Flask works on Rahti!', 
+        'msg': 'github hook deployment works fine!', 
         'env': os.environ.get('ENV_VAR', 'Cannot find variable ENV_VAR') 
     }
 
